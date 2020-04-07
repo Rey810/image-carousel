@@ -1,0 +1,89 @@
+.picture-frame {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.pictures-container {
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: scroll;
+  white-space: nowrap;
+  bottom: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.arrows-container {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2em;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: rgba(0, 0, 0, 0.562);
+  cursor: pointer;
+}
+
+.arrows i {
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.arrows:hover {
+  background: rgba(0, 0, 0, 0.774);
+}
+
+.arrows:hover i {
+  color: rgba(255, 255, 255, 0.938);
+}
+
+.indicators {
+  width: 500px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.indicators .indicator {
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+.selected {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

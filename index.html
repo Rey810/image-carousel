@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/31038529b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="picture-frame">
+      <div class="arrows-container">
+        <div class="arrows previous"><i class="fas fa-arrow-left"></i></div>
+        <div class="arrows next"><i class="fas fa-arrow-right"></i></div>
+      </div>
+
+      <div class="pictures-container">
+        <img src="/1.jpg" id="pic1" alt="" />
+        <img src="/2.jpg" id="pic2" alt="" />
+        <img src="/3.jpg" id="pic3" alt="" />
+        <img src="/4.jpg" id="pic4" alt="" />
+      </div>
+    </div>
+    <div class="indicators">
+      <div class="indicator" data-id="0"></div>
+      <div class="indicator" data-id="1"></div>
+      <div class="indicator" data-id="2"></div>
+      <div class="indicator" data-id="3"></div>
+    </div>
+    <script src="slider.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+$width: 500px;
+$height: 500px;
+
+.picture-frame {
+  width: $width;
+  height: $height;
+  border: 2px solid black;
+}
+
+.pictures-container {
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: scroll;
+  white-space: nowrap;
+  bottom: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: $width;
+  height: $width;
+}
+
+.arrows-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  width: max-content;
+  background: rgba(0, 0, 0, 0.562);
+  cursor: pointer;
+  i {
+    color: rgba(255, 255, 255, 0.829);
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.774);
+    i {
+      color: rgba(255, 255, 255, 0.938);
+    }
+  }
+}
+
+// indicators
+
+.indicators {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+  .indicator {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 1em;
+  }
+}
+
+.selected {
+  background-color: black;
+}
