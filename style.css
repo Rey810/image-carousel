@@ -82,7 +82,7 @@ img {
 }
 
 .arrows:hover i {
-  color: #62d623;
+  color: #9eb58d;
 }
 
 .indicators {
@@ -97,18 +97,19 @@ img {
 }
 
 .indicators .indicator {
-  border: 1px solid rgba(104, 228, 36, 0.93);
+  border: 1px solid #435337;
   width: 15px;
+  height: 15px;
   border-radius: 50%;
   margin: 1em;
 }
 
 .indicators .indicator:hover {
-  background: rgba(104, 228, 36, 0.93);
+  background: rgba(118, 149, 94, 0.69);
   border-color: none;
 }
 
 .selected {
-  background-color: rgba(104, 228, 36, 0.93);
+  background-color: #435337;
 }
 /*# sourceMappingURL=style.css.map */

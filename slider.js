@@ -1,5 +1,6 @@
 // VARIABLES
 // scroll positions of various pictures (in px)
+// increments of their width + 4px
 const pic1 = 0;
 const pic2 = 304;
 const pic3 = 608;
