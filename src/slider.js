@@ -10,7 +10,7 @@ const nextArrow = document.querySelector(".next");
 const previousArrow = document.querySelector(".previous");
 // the first picture. Used for it's width
 const picture = document.querySelector("img");
-const pictureWidth = picture.clientWidth;
+const pictureWidth = 300;
 // contains all 4 pictures
 const picsCont = document.querySelector(".pictures-container");
 // the current scroll position of the image container
@@ -79,7 +79,8 @@ function next() {
 
 // scrolls to next pic and updates indicator
 function goNext() {
-  scrollPos += pictureWidth + 4;
+  console.log("picwidth", pictureWidth);
+  scrollPos += pictureWidth + 4; //4px is for border
   picsCont.scrollLeft = scrollPos;
   matchIndicatorWithScroll();
 }
