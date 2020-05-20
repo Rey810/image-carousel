@@ -71,18 +71,18 @@ img {
   justify-content: center;
 
   .indicator {
-    border: 1px solid rgb(67, 83, 55);
+    border: 1px solid #6ec82a;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     margin: 1em;
     &:hover {
-      background: rgba(118, 149, 94, 0.69);
+      background: #6ec82aa8;
       border-color: none;
     }
   }
 }
 
 .selected {
-  background-color: rgb(67, 83, 55);
+  background-color: #6ec82a;
 }
